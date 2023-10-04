@@ -1,0 +1,53 @@
+/* 
+=============================================
+Authors: MOSES MACHARIA AND KENNEDY MUCHINA 
+Contact: machariamoses39@gmail.com, muchina537@gmail.com
+Copyright: GNU GENERAL PUBLIC LICENSE
+Date: Oct 4, 2023
+=============================================
+*/ 
+@charset "UTF-8";
+/* HTML5 reset */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video, 
+button, input, textarea {margin: 0;padding: 0;border: 0;vertical-align: baseline;font-size: 100%;font-family: inherit;}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+/* Website Defaults */
+*, *::before, *::after { box-sizing: border-box; }
+html {font-family: sans-serif;line-height: 1.15;overflow-y: scroll; overflow-x: hidden;-webkit-text-size-adjust: 100%;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+body {font-family: "Montserratregular", Arial, Helvetica, sans-serif;font-size: 14px;font-weight: 400;line-height: 2.4rem;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Factor A', 'Ubuntu', Helvetica, Arial, sans-serif;font-weight: 500;line-height: 1.2;margin-top: 0;margin-bottom: 0.5rem;}
+h1 { font-size: 2.25rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+ol, ul { margin-top: 0; margin-bottom: 1rem; list-style: none; }
+li { list-style: none;}
+a{ color: #000; text-decoration: none; background-color: transparent; }
+a:hover:not(#logo) { color: var(--primary); text-decoration: none; }
+hr { display: block; width: 100%; height: 0; border: 0;border-top: 1px solid rgba(0, 0, 0, 0.1); overflow: visible; }
+p { font-family: 'Roboto Slab', serif; font-size: 1.4rem; color: var(--paragraph); margin-bottom: 1rem; line-height: 2.4rem; }
+small, span { font-size: 80%; font-weight: 400; }
+img { vertical-align: middle; border-style: none; }
+svg { overflow: hidden; vertical-align: middle; }
+button { text-transform: uppercase; cursor: pointer;}
+button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner {padding: 0;border-style: none;}
+button,[type=button],[type=reset],[type=submit] {appearance: button;}
+button:not(:disabled),[type=button]:not(:disabled),[type=reset]:not(:disabled),[type=submit]:not(:disabled) {cursor: pointer;}
+button, input { overflow: visible; }
+button a { color: white; text-decoration: none;}
+button a:hover { color: #000; text-decoration: none;}
+input[type=radio], input[type=checkbox] { box-sizing: border-box; padding: 0; }
+textarea { overflow: auto; resize: vertical; }

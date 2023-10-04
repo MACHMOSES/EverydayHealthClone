@@ -1,1 +1,1 @@
-# EverydayHealthClone
+# Everyday Health Clone
