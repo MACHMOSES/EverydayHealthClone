@@ -1,1 +1,89 @@
-@import url('./reset.css');
+/* @import url('./reset.css'); */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    width: 1200px;
+    height: 200px;
+    margin: 10px auto;
+}
+nav{
+    width: 1200px;  
+    height: 100px;
+    margin: 20px auto;
+}
+
+nav #humbager div{
+    height: 5px;
+    width: 20px;
+    margin-bottom:2px;
+    margin-left: 20px;
+    background-color: black;
+}
+#humbager{
+    float: left;
+}
+
+nav div #menu {
+    float:left ;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+nav div #logo img{
+    height: 25px;
+    width: 300px;
+    float: left;
+    margin-left: 250px;
+}
+
+nav div #newsletter img{
+    height:20px ;
+    width:40px ;
+    float:left;
+    margin-left: 250px;
+}
+nav div #spannewsletters{
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+nav div #search img{
+    height:20px ;
+    width: 40px ;
+    float:left ;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+nav ul{
+    
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+
+nav #spansearch{
+    font-size: 13px;
+}
+nav ul li{
+    clear: both;
+    display: inline;
+    margin-top:20px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+header #ad{
+    height: 200px;
+    background-color: rgb(209, 195, 195);
+}
+
