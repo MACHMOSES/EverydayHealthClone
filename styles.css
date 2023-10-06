@@ -1,4 +1,4 @@
-/* @import url('./reset.css'); */
+@import url('./reset.css');
 *{
     margin: 0px;
     padding: 0px;
@@ -62,17 +62,15 @@ nav div #search img{
     margin-right: 10px;
 }
 
-
 nav ul{
-    
     margin-top: 40px;
     margin-left: 200px;
-    
 }
 
 nav #spansearch{
     font-size: 13px;
 }
+
 nav ul li{
     clear: both;
     display: inline;
@@ -82,8 +80,13 @@ nav ul li{
     font-weight: bold;
 }
 
+
 header #ad{
     height: 200px;
     background-color: rgb(209, 195, 195);
+}
+
+nav ul li:hover {
+    color: red;
 }
 
